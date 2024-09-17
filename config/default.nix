@@ -1,38 +1,17 @@
 { pkgs, inputs, ... }:
 {
   # Import all your configuration modules here
-  imports = [ ./bufferline.nix ];
+  imports = [ ./lsp.nix ];
 
-  extraConfigVim = "source ~/.vim/common.vim\nlet mapleader = \"<Space>\"\ncolorscheme flexoki-dark";
+  globals.mapleader = " ";
+  colorscheme = "flexoki-dark";
+  extraConfigVim = "source ~/.vim/common.vim";
 
   colorschemes = {
     modus.enable = true;
   };
 
   plugins = {
-    lsp = {
-      enable = true;
-      servers =  {
-        lua-ls.enable = true;
-        clangd.enable = true;
-        gopls.enable = true;
-        java-language-server.enable = true;
-        rust-analyzer = {
-          enable = true;
-          installCargo = false;
-          installRustc = false;
-        };
-	texlab.enable = true;
-
-        pyright.enable = true;
-        htmx.enable = true;
-        zls.enable = true;
-
-        svelte.enable = true;
-        ts-ls.enable = true;
-      };
-
-    };
     cmp = {
       enable = true;
       autoEnableSources = true;
@@ -78,5 +57,5 @@
       rev = "0757646cb2e646e715d82e10df47657c9ef03408";
       hash = "sha256-VAasFvYM7emw26nrI/G5Aktcqfi29FEeH0d1PCucNz4=";
     };
-})];
+  })];
 }
