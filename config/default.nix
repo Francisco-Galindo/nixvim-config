@@ -1,7 +1,10 @@
 { pkgs, inputs, ... }:
 {
   # Import all your configuration modules here
-  imports = [ ./lsp.nix ];
+  imports = [
+    ./lsp.nix
+    ./ftplugin/default.nix
+  ];
 
   globals.mapleader = " ";
   colorscheme = "flexoki-dark";
