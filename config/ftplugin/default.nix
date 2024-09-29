@@ -15,6 +15,14 @@
       softtabstop = 2;
     };
   };
+  files."ftplugin/json.lua" = {
+    opts = {
+      expandtab = true;
+      shiftwidth = 2;
+      tabstop = 2;
+      softtabstop = 2;
+    };
+  };
   files."ftplugin/javascript.lua" = {
     opts = {
       expandtab = true;
@@ -41,6 +49,10 @@
   };
   files."ftplugin/markdown.lua" = {
     opts = {
+      expandtab = true;
+      shiftwidth = 4;
+      tabstop = 4;
+      softtabstop = 4;
       textwidth = 80;
     };
   };

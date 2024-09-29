@@ -15,11 +15,13 @@
         texlab.enable = true;
 
         pyright.enable = true;
-        htmx.enable = true;
         zls.enable = true;
 
         svelte.enable = true;
+        htmx.enable = true;
         ts-ls.enable = true;
+        ocamllsp.enable = true;
+
       };
       keymaps = {
         silent = true;
