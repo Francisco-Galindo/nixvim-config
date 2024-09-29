@@ -69,9 +69,8 @@
     fugitive.enable = true;
     gitsigns.enable = true;
     emmet.enable = true;
-    treesitter = {
-      enable = true;
-    };
+    treesitter.enable = true;
+    comment.enable = true;
   };
 
   extraPlugins = [
