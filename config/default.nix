@@ -9,10 +9,29 @@
 
   globals.mapleader = " ";
   colorscheme = "flexoki-dark";
-  extraConfigVim = "source ~/.vim/common.vim";
 
-  colorschemes = {
-    modus.enable = true;
+  opts = {
+    updatetime = 200;
+    encoding = "utf-8";
+    fileformat = "unix";
+    mouse = "a";
+
+    number = true;
+    relativenumber = true;
+
+    autoindent = true;
+    smartindent = true;
+
+    signcolumn = "yes";
+    colorcolumn = "80";
+
+    ignorecase = true;
+    incsearch = true;
+    smartcase = true;
+    wildmode = "list:longest";
+    wildignorecase = true;
+
+    termguicolors = true;
   };
 
   plugins = {
@@ -64,6 +83,7 @@
   };
 
   extraPlugins = [
+    pkgs.vimPlugins.vim-svelte
     (pkgs.vimUtils.buildVimPlugin {
       name = "flexoki-neovim";
       src = pkgs.fetchFromGitHub {
@@ -71,6 +91,15 @@
         repo = "flexoki-neovim";
         rev = "0757646cb2e646e715d82e10df47657c9ef03408";
         hash = "sha256-VAasFvYM7emw26nrI/G5Aktcqfi29FEeH0d1PCucNz4=";
+      };
+    })
+    (pkgs.vimUtils.buildVimPlugin {
+      name = "img-paste";
+      src = pkgs.fetchFromGitHub {
+        owner = "img-paste-devs";
+        repo = "img-paste.vim";
+        rev = "787be15ff52ea2db5ae7b813ab8808c8d4cf749e";
+        hash = "sha256-LaqEGKbpZmcOJeIz00Ts5DvbFnduScBEUnisTcX1srI=";
       };
     })
     (pkgs.vimUtils.buildVimPlugin {
