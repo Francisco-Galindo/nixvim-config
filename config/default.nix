@@ -3,6 +3,7 @@
   # Import all your configuration modules here
   imports = [
     ./lsp.nix
+    ./undotree.nix
     ./ftplugin/default.nix
   ];
 
@@ -47,11 +48,19 @@
       texlivePackage = pkgs.texliveFull;
     };
 
+    gitsigns = {
+      enable = true;
+      settings = {
+        current_line_blame = true;
+        trouble = true;
+      };
+    };
+
     fugitive.enable = true;
-    gitsigns.enable = true;
     emmet.enable = true;
     treesitter.enable = true;
     comment.enable = true;
+    trouble.enable = true;
   };
 
   extraPlugins = [
