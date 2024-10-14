@@ -79,6 +79,7 @@
     emmet.enable = true;
     treesitter.enable = true;
     comment.enable = true;
+    web-devicons.enable = true;
     trouble.enable = true;
   };
 
