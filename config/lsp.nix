@@ -3,11 +3,11 @@
     lsp = {
       enable = true;
       servers =  {
-        lua-ls.enable = true;
+        lua_ls.enable = true;
         clangd.enable = true;
         gopls.enable = true;
-        java-language-server.enable = true;
-        rust-analyzer = {
+        java_language_server.enable = true;
+        rust_analyzer = {
           enable = true;
           installCargo = false;
           installRustc = false;
@@ -19,8 +19,7 @@
 
         svelte.enable = true;
         htmx.enable = true;
-        ts-ls.enable = true;
-        ocamllsp.enable = true;
+        ts_ls.enable = true;
 
       };
       keymaps = {
