@@ -70,7 +70,6 @@
     gitsigns = {
       enable = true;
       settings = {
-        current_line_blame = true;
         trouble = true;
       };
     };
@@ -81,6 +80,7 @@
     comment.enable = true;
     web-devicons.enable = true;
     trouble.enable = true;
+    harpoon.enable = true;
   };
 
   extraPlugins = [
