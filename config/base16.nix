@@ -3,10 +3,11 @@
     enable = true;
     colorscheme = {
       base00 = "#100f0f";
-      base01 = "#1c1b1a";
-      base02 = "#282726";
-      base03 = "#343331";
-      base04 = "#403e3c";
+      # base01 = "#1c1b1a";
+      base01 = "#282726";
+      base02 = "#343331";
+      base03 = "#403e3c";
+      base04 = "#878580";
       base05 = "#cecdc3";
       base06 = "#878580";
       base07 = "#cecdc3";
