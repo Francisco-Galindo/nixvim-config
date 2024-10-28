@@ -72,4 +72,12 @@
       softtabstop = 4;
     };
   };
+  files."ftplugin/sql.lua" = {
+    opts = {
+      expandtab = true;
+      shiftwidth = 4;
+      tabstop = 4;
+      softtabstop = 4;
+    };
+  };
 }
