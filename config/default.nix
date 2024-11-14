@@ -91,6 +91,7 @@
     web-devicons.enable = true;
     trouble.enable = true;
     harpoon.enable = true;
+    trim.enable = true;
   };
 
   extraPlugins = [
