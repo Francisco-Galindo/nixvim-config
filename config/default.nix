@@ -6,6 +6,7 @@
     ./undotree.nix
     ./ftplugin/default.nix
     ./base16.nix
+    ./performance.nix
   ];
 
   globals.mapleader = " ";
