@@ -75,9 +75,18 @@
     };
 
     fugitive.enable = true;
+
     emmet.enable = true;
     treesitter.enable = true;
-    comment.enable = true;
+
+    comment = {
+      enable = true;
+      settings = {
+        pre_hook = "require('ts_context_commentstring.integrations.comment_nvim').create_pre_hook()";
+      };
+    };
+    ts-context-commentstring.enable = true;
+
     web-devicons.enable = true;
     trouble.enable = true;
     harpoon.enable = true;
