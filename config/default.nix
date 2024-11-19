@@ -62,6 +62,7 @@
         "<leader>fg" = { action = "live_grep"; };
       };
     };
+    cmp-pandoc-references.enable = true;
 
     vimtex = {
       enable = true;
