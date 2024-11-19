@@ -9,8 +9,8 @@
         java_language_server.enable = true;
         rust_analyzer = {
           enable = true;
-          installCargo = false;
-          installRustc = false;
+          installCargo = true;
+          installRustc = true;
         };
         texlab.enable = true;
 
