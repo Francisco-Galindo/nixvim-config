@@ -54,6 +54,9 @@
       tabstop = 4;
       softtabstop = 4;
       textwidth = 80;
+      wrap = true;
+      linebreak = true;
+      columns = 80;
     };
   };
   files."ftplugin/svelte.lua" = {
@@ -70,6 +73,9 @@
       shiftwidth = 4;
       tabstop = 4;
       softtabstop = 4;
+      wrap = true;
+      linebreak = true;
+      columns = 80;
     };
   };
   files."ftplugin/sql.lua" = {
