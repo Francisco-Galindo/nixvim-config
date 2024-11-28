@@ -83,15 +83,6 @@
         hash = "sha256-LaqEGKbpZmcOJeIz00Ts5DvbFnduScBEUnisTcX1srI=";
       };
     })
-    (pkgs.vimUtils.buildVimPlugin {
-      name = "img-paste";
-      src = pkgs.fetchFromGitHub {
-        owner = "img-paste-devs";
-        repo = "img-paste.vim";
-        rev = "787be15ff52ea2db5ae7b813ab8808c8d4cf749e";
-        hash = "sha256-LaqEGKbpZmcOJeIz00Ts5DvbFnduScBEUnisTcX1srI=";
-      };
-    })
   ];
 
 }
