@@ -1,6 +1,6 @@
 {
   files."ftplugin/nix.lua" = {
-    opts = {
+    localOpts = {
       expandtab = true;
       shiftwidth = 2;
       tabstop = 2;
@@ -8,7 +8,7 @@
     };
   };
   files."ftplugin/html.lua" = {
-    opts = {
+    localOpts = {
       expandtab = true;
       shiftwidth = 2;
       tabstop = 2;
@@ -16,7 +16,7 @@
     };
   };
   files."ftplugin/json.lua" = {
-    opts = {
+    localOpts = {
       expandtab = true;
       shiftwidth = 2;
       tabstop = 2;
@@ -24,7 +24,7 @@
     };
   };
   files."ftplugin/javascript.lua" = {
-    opts = {
+    localOpts = {
       expandtab = true;
       shiftwidth = 4;
       tabstop = 4;
@@ -32,7 +32,7 @@
     };
   };
   files."ftplugin/typescript.lua" = {
-    opts = {
+    localOpts = {
       expandtab = true;
       shiftwidth = 4;
       tabstop = 4;
@@ -40,7 +40,7 @@
     };
   };
   files."ftplugin/lua.lua" = {
-    opts = {
+    localOpts = {
       expandtab = true;
       shiftwidth = 4;
       tabstop = 4;
@@ -48,7 +48,7 @@
     };
   };
   files."ftplugin/markdown.lua" = {
-    opts = {
+    localOpts = {
       expandtab = true;
       shiftwidth = 4;
       tabstop = 4;
@@ -59,7 +59,7 @@
     };
   };
   files."ftplugin/svelte.lua" = {
-    opts = {
+    localOpts = {
       expandtab = true;
       shiftwidth = 4;
       tabstop = 4;
@@ -67,7 +67,7 @@
     };
   };
   files."ftplugin/tex.lua" = {
-    opts = {
+    localOpts = {
       expandtab = true;
       shiftwidth = 4;
       tabstop = 4;
@@ -78,7 +78,7 @@
     };
   };
   files."ftplugin/sql.lua" = {
-    opts = {
+    localOpts = {
       expandtab = true;
       shiftwidth = 2;
       tabstop = 2;
