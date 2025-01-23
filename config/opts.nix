@@ -13,6 +13,8 @@
 
     signcolumn = "yes";
     colorcolumn = "80";
+    wrap = false;
+    linebreak = false;
 
     ignorecase = true;
     incsearch = true;
