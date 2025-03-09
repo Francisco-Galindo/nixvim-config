@@ -74,6 +74,7 @@
 
   extraPlugins = [
     pkgs.vimPlugins.vim-svelte
+    pkgs.vimPlugins.hare-vim
     (pkgs.vimUtils.buildVimPlugin {
       name = "img-paste";
       src = pkgs.fetchFromGitHub {
