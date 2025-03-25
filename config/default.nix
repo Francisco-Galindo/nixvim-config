@@ -41,6 +41,8 @@
     };
     cmp-pandoc-references.enable = true;
 
+    competitest.enable = true;
+
     vimtex = {
       enable = true;
       texlivePackage = pkgs.texliveFull;
