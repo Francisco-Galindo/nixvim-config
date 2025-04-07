@@ -60,11 +60,7 @@
 
     comment = {
       enable = true;
-      settings = {
-        pre_hook = "require('ts_context_commentstring.integrations.comment_nvim').create_pre_hook()";
-      };
     };
-    ts-context-commentstring.enable = true;
 
     web-devicons.enable = true;
     trouble.enable = true;
@@ -73,8 +69,6 @@
   };
 
   extraPlugins = [
-    pkgs.vimPlugins.vim-svelte
-    pkgs.vimPlugins.hare-vim
     (pkgs.vimUtils.buildVimPlugin {
       name = "img-paste";
       src = pkgs.fetchFromGitHub {

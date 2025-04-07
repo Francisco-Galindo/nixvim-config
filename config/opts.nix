@@ -25,4 +25,8 @@
     termguicolors = true;
   };
 
+  extraConfigVim = ''
+    autocmd FileType * TSEnable highlight
+    '';
+
 }
