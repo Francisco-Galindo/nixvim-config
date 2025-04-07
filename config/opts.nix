@@ -23,8 +23,9 @@
   };
 
   extraConfigVim = ''
-    autocmd FileType * TSEnable highlight
-    autocmd FileType * TSEnable indent
-    '';
+    autocmd FileType * :TSEnable highlight
+    autocmd FileType * :TSEnable indent
+    ''
+    ;
 
 }
