@@ -8,9 +8,6 @@
     number = true;
     relativenumber = true;
 
-    autoindent = true;
-    smartindent = true;
-
     signcolumn = "yes";
     colorcolumn = "80";
     wrap = false;
@@ -27,6 +24,7 @@
 
   extraConfigVim = ''
     autocmd FileType * TSEnable highlight
+    autocmd FileType * TSEnable indent
     '';
 
 }
